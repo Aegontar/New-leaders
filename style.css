@@ -269,3 +269,100 @@ body {
     font-size: 38px;
   }
   
+
+  /* css for about us */
+
+  #about-us {
+   width: 100vw;
+   width: 98vw;
+    margin: 0 auto;
+  }
+  
+  .about-us-image {
+    height: 100vh;
+    width: 80%;
+    background: url("images/kids-posing.jpg");  
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    background-position: center;
+    margin: 0 auto;
+  }
+
+
+  .about-us-image:nth-of-type(5) {
+    height: 100vh;
+    width: 80%;
+    background: url("images/Kids-resting.jpg");  
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    background-position: center;
+    margin: 0 auto;
+  }
+
+
+
+
+  .about-us-text-content {
+    text-align: left;
+    margin: 0 40px;
+    color: #a30f;
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .about-us-text-content p{
+    color: #8f0202;
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  .about-us-text-content li{
+    color: #8f0202;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+
+  /* general css */
+
+  #introductory-icon img {
+    height: 40%;
+    width: 40%;
+  }
+
+  .spacer {
+    height: 100px;
+    width: 100%;
+  }
+
+
+  #introductory-text {
+    text-align: center;
+    margin: 1px solid black;
+  }
+
+  #introductory-text h1 {
+    font-size: 50px;
+    color: #a30f;
+  }
+
+  #introductory-text h4 {
+    font-size: 25px;
+    color: #a30f;
+  }
+
+
+  @media only screen and (max-width: 560px) {
+    .about-us-text-content {
+      text-align: left;
+      margin: 0 40px;
+      color: #a30f;
+      width: 80%;
+      margin: 0 auto;
+    }
+  
+  
+    
+  }
