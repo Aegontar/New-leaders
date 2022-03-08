@@ -6,7 +6,8 @@ body {
     padding: 0;
     overflow-x: hidden;
     width: 100vw;
-    font-family: "Roboto Condensed", sans-serif;
+    font-family: "Roboto", sans-serif;
+    
   }
 
 
@@ -277,10 +278,43 @@ body {
    width: 98vw;
     margin: 0 auto;
   }
-  
+
   .about-us-image {
-    height: 100vh;
-    width: 80%;
+    height: 800px;
+    width: 70%;
+  }
+
+  @media only screen and (max-width: 1495px) {
+    .about-us-image {
+      height: 700px;
+      width: 70%;
+    }
+  }
+
+  @media only screen and (max-width: 1243px) {
+    .about-us-image {
+      height: 600px;
+      width: 70%;
+    }
+  }
+
+  @media only screen and (max-width: 740px) {
+    .about-us-image {
+      height: 500px;
+      width: 70%;
+    }
+  }
+
+  @media only screen and (max-width: 595px) {
+    .about-us-image {
+      height: 400px;
+      width: 80%;
+    }
+  }
+  
+  
+  
+  .about-us-image:nth-of-type(1)  {
     background: url("images/kids-posing.jpg");  
     background-repeat: no-repeat;
     background-size: cover;
@@ -291,8 +325,6 @@ body {
 
 
   .about-us-image:nth-of-type(5) {
-    height: 100vh;
-    width: 80%;
     background: url("images/Kids-resting.jpg");  
     background-repeat: no-repeat;
     background-size: cover;
@@ -302,28 +334,272 @@ body {
   }
 
 
+  .about-us-image:nth-of-type(9) {
+    background: url("images/childrenGroupPhoto.jpg");  
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    background-position: center;
+    margin: 0 auto;
+  }
+
+  .about-us-image:nth-of-type(13) {
+    background: url("images/kids-playing.jpg");  
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    background-position: center;
+    margin: 0 auto;
+  }
+
+  .about-us-image:nth-of-type(17) {
+    background: url("images/kidsTraining.jpg");  
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    background-position: center;
+    margin: 0 auto;
+  }
+
+
+  .about-us-image:nth-of-type(21) {
+    background: url("images/childrenDiscussing.jpg");  
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    background-position: center;
+    margin: 0 auto;
+  }
+
+  .about-us-image:nth-of-type(25) {
+    background: url("images/handingTrophy.jpg");  
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    background-position: center;
+    margin: 0 auto;
+  }
+
+
+  .about-us-image:nth-of-type(29) {
+    background: url("images/childrenWaiting.jpg");  
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    background-position: center;
+    margin: 0 auto;
+  }
+
+  .skill > span {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+
+  .skill:nth-of-type(2) > span {
+    display: inline-block;
+    background: rgb(2, 176, 235);
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    color: #fff;
+  }
+
+  
+  .skill:nth-of-type(3) > span {
+    display: inline-block;
+    background: rgb(243, 36, 36);
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    color: #fff;
+  }
+
+  .skill:nth-of-type(4) > span {
+    display: inline-block;
+    background: rgb(174, 177, 3);
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    color: #fff;
+  }
+
+  .skill:nth-of-type(5) > span {
+    display: inline-block;
+    background: rgb(3, 177, 12);
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .skill:nth-of-type(6) > span {
+    display: inline-block;
+    background: rgb(167, 5, 99);
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    color: #fff;
+  }
+
+  .skill:nth-of-type(7) > span {
+    display: inline-block;
+    background: rgb(88, 1, 52);
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    color: #fff;
+  }
+
+  .skill:nth-of-type(8) > span {
+    display: inline-block;
+    background: rgb(39, 2, 107);
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    color: #fff;
+  }
+
+  .skill:nth-of-type(9) > span {
+    display: inline-block;
+    background: rgb(1, 82, 25);
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    color: #fff;
+  }
+
+  .skill:nth-of-type(9) > span {
+    display: inline-block;
+    background: rgb(134, 31, 48);
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    color: #fff;
+  }
+
+  .skill:nth-of-type(10) > span {
+    display: inline-block;
+    background: rgb(95, 1, 245);
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    color: #fff;
+  }
+
+  .skill:nth-of-type(11) > span {
+    display: inline-block;
+    background: rgb(1, 154, 165);
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    color: #fff;
+  }
+
+  .skill:nth-of-type(12) > span {
+    display: inline-block;
+    background: rgb(252, 77, 243);
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    color: #fff;
+  }
+
+  .skill:nth-of-type(13) > span {
+    display: inline-block;
+    background: rgb(68, 117, 45);
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    color: #fff;
+  }
+
+
+
+
+
+
 
 
   .about-us-text-content {
     text-align: left;
     margin: 0 40px;
-    color: #a30f;
+    color: #293160;
     width: 70%;
     margin: 0 auto;
   }
 
   .about-us-text-content p{
-    color: #8f0202;
-    font-size: 14px;
+    color: #293160;
+    font-size: 17px;
     font-weight: 500;
   }
 
   .about-us-text-content li{
-    color: #8f0202;
-    font-size: 14px;
+    color: #293160;
+    font-size: 17px;
     font-weight: 500;
     margin-bottom: 10px;
   }
+
+  .pillar {
+   margin-top: 30px;
+   }
+
+   .physical {
+    background: red;
+    color: white;
+    display: inline;
+    padding: 10px;
+    border-radius: 20px;
+   }
+ 
+
+  .technical {
+   background: green;
+   color: white;
+   display: inline;
+   padding: 10px;
+   border-radius: 20px;
+  }
+
+  .tactical {
+    background: blue;
+    color: white;
+    display: inline;
+    padding: 10px;
+    border-radius: 20px;
+   }
+
+   .mental {
+    background: rgb(52, 144, 219);
+    color: white;
+    display: inline;
+    padding: 10px;
+    border-radius: 20px;
+   }
+
+   .adaptability {
+    background: rgb(192, 206, 4);
+    color: white;
+    display: inline;
+    padding: 10px;
+    border-radius: 20px;
+   }
+ 
 
   /* general css */
 
@@ -345,12 +621,12 @@ body {
 
   #introductory-text h1 {
     font-size: 50px;
-    color: #a30f;
+    color: #293160;
   }
 
   #introductory-text h4 {
     font-size: 25px;
-    color: #a30f;
+    color: #293160;
   }
 
 
@@ -358,11 +634,9 @@ body {
     .about-us-text-content {
       text-align: left;
       margin: 0 40px;
-      color: #a30f;
+      color: #293160;
       width: 80%;
       margin: 0 auto;
     }
   
-  
-    
   }
