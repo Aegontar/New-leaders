@@ -639,5 +639,10 @@ body {
       width: 90%;
       margin: 0 auto;
     }
+
+    #introductory-text h1 {
+      font-size: 40px;
+      color: #293160;
+  }
   
   }
