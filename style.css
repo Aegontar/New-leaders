@@ -261,7 +261,7 @@ body {
   }
 
   .image-container {
-    width: 605px;
+    width: 40%;
     max-width: 100%
   }
 
@@ -272,9 +272,17 @@ body {
   }
 
   .text-container {
-    width: 100%;
-    padding: 10px;
-    font-size: 15px;
+    width: 40%;
+  /*   padding: 0 20px; */
+    font-size: 13px;
+  }
+
+  .padding-left {
+    padding-left: 40px;
+  }
+
+  .padding-right {
+    padding-right: 40px;
   }
    
   #text-content-container {
@@ -282,17 +290,23 @@ body {
   }
 
   #about-us {
-   width: 70%;
+   width: 100%;
    margin: 0 auto;
+   max-width: 1500px;
   }
 
   .content {
    display: flex; 
-   flex-direction: column;
+   justify-content: center;
   } 
 
   .text-container li{
     margin-bottom: 5px;
+  }
+
+  .text-container h2{
+    margin-bottom: 5px;
+    margin-block-start: 0em;
   }
 
   /* footer css */
@@ -448,7 +462,7 @@ img {vertical-align: middle;}
 .slideshow-container  img{
   width: 50%;
   max-width: 100%;
-  height: 374px;
+  height: 500px;
 }
 
 
