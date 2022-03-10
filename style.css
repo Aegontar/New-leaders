@@ -6,7 +6,7 @@ body {
     width: 100vw;
     font-family: "Roboto", sans-serif;
     color: #222!important;
-    line-height: 2em;
+    line-height: 1.5em;
   }
 
 
@@ -170,6 +170,7 @@ body {
 
         /* homepage content */
 
+
 .exposure {
   opacity: 0;
   transition: opacity 2s; 
@@ -276,6 +277,9 @@ body {
   /*   font-size: 13px; */
   }
 
+  
+
+
   .padding-left {
     padding-left: 40px;
   }
@@ -304,12 +308,62 @@ body {
   } 
 
   .text-container li{
-    margin-bottom: 5px;
+    margin-bottom: 3px;
   }
 
   .text-container h2{
     margin-bottom: 5px;
     margin-block-start: 0em;
+  }
+
+  .only-mobile {
+    display: none;
+  }
+
+  @media only screen and (max-width: 940px) {
+    .padding-left {
+      padding-left: 40px;
+     }
+  
+     .text-container {
+      width: 50%;
+     }
+  
+     .img-padding-left {
+      padding-left: 00px
+     }
+   }
+
+   @media only screen and (max-width: 800px) {
+    .content {
+      flex-direction: column;
+    }
+
+    .only-desktop {
+      display: none;
+    }
+
+    .only-mobile {
+      display: block;
+    }
+
+    .image-container {
+      width: 90%;
+      max-width: 100%;
+    }
+
+    .text-container {
+      width: 90%;
+      margin-top: 20px;
+    }
+
+    .content {
+      align-items: center;
+    }
+
+    .padding-left {
+      padding-left: 00px;
+  }
   }
 
   /* footer css */
