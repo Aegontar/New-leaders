@@ -284,6 +284,10 @@ body {
   .padding-right {
     padding-right: 40px;
   }
+
+  .img-padding-left {
+    padding-left: 20px;
+  }
    
   #text-content-container {
     width: 100%;
@@ -292,7 +296,7 @@ body {
   #about-us {
    width: 100%;
    margin: 0 auto;
-   max-width: 1500px;
+   max-width: 1520px;
   }
 
   .content {
