@@ -364,6 +364,10 @@ body {
     .padding-left {
       padding-left: 00px;
   }
+
+  .padding-right {
+    padding-right: 00px;
+}
   }
 
   /* footer css */
