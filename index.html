@@ -12,6 +12,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+
 <!--  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap" rel="stylesheet">  -->
 <link href="https://fonts.googleapis.com/css?family=Oswald:600|Roboto:300,400,500,700&amp;display=swap" rel="stylesheet">
   
@@ -37,9 +39,11 @@
                 </svg>
             </div>
             <ul class="dropdown-content">
-                <li onclick="location.href='index.html'"> Home</li>
-                <li onclick="location.href='about.html'">Our story</li>
-                <li onclick="location.href='contact.html'"> Contact</li>
+                <li><a href="#header-image-container">Home</a></li>
+                <li><a href="#about-us">About us</a></li>
+                <li><a href=".register">Register</a></li>
+
+                
             </ul>
         </div>
 
@@ -51,9 +55,10 @@
             </div>
             <div class="menu-area">
                 <ul class="menu-content">
-                    <li onclick="location.href='index.html'"> Home</li>
-                    <li onclick="location.href='about.html'"> Our story</li>
-                    <li onclick="location.href='contact.html'"> Contact</li>
+                <!--     <li onclick="location.href='.about-us'"> Home</li> -->
+                    <li><a href="#header-image-container">Home</a></li>
+                    <li><a href="#about-us">About us</a></li>
+                    <li><a href="#register">Register</a></li>
                 </ul>
             </div>
         </div>
@@ -91,19 +96,7 @@
                     <div class="image-container"><img src="images/kids-playing.jpg" alt=""></div>
                     <div class="text-container padding-left ">    
                          <h2>OUR VALUE PROPOSITION</h2>
-           <!--              <p>At Leaders Football Center, we pride ourselves on creating the best and most conducive environment
-                            for the development of young players and athletes within the ages of 5— 19 years old.</p>
-                
-                        <p> Our Development programs are based on expertly designed curriculums that take players & athletes on
-                            a journey, promoting passion and love for sports while developing them with skills and positive
-                            experiences which ensure they are very well-rounded to have a career in sports.</p>
-                        <p>Our core values of Discipline, Integrity, Excellence, Teamwork, Perseverance, Responsibility,
-                            Diligence, Service, Capacity-building, Compassion, Possibility-mentality, and Courage are also
-                            taught to the students to help shape their progression into young adults, giving them skills that
-                            can be used throughout their lives and indeed become the pride of our city.</p>
-                        <p>Our coaches are highly trained in helping young people develop their God-given talents and skills
-                            as athletes and players, either professionally, semi-professionally, or for leisure. They are also
-                            qualified to teach Life Skills through sport-based activities and scenarios </p> -->
+            
 
                             <p>
                                 At Leaders Football Center, we pride ourselves on creating the best and most conducive environment
@@ -178,7 +171,7 @@
                             <div class="slideshow-container">
 
                                 <div class="mySlides fade">
-                                  <div class="numbertext">1 / 4</div>
+                                  <div class="numbertext">1 / 5</div>
                                   <img src="images/kids-practicing-2.jpg" >
                                   <div class="text">
                                     <h2>Introduction level</h2>  
@@ -191,7 +184,7 @@
                                 </div>
                                 
                                 <div class="mySlides fade">
-                                  <div class="numbertext">2 / 4</div>
+                                  <div class="numbertext">2 / 5</div>
                                   <img src="images/Kids-resting.jpg" >
                                   <div class="text">
                                     <h2>Foundation level</h2>
@@ -205,7 +198,7 @@
                                 </div>
                                 
                                 <div class="mySlides fade">
-                                  <div class="numbertext">3 / 4</div>
+                                  <div class="numbertext">3 / 5</div>
                                   <img src="images/kids-playing.jpg" >
                                   <div class="text">
                                     <h2>Pre-academy level</h2>
@@ -217,7 +210,7 @@
                                 </div>
 
                                 <div class="mySlides fade">
-                                    <div class="numbertext">4 / 4</div>
+                                    <div class="numbertext">4 / 5</div>
                                     <img src="images/childrenDiscussing.jpg" >
                                     <div class="text">                                                            
                                     <h2>Girls development program(Pre-Academy Level)</h2>
@@ -226,6 +219,26 @@
                                         of football per week</p>
                               </div>
                                   </div>
+
+                                  <div class="mySlides fade">
+                                    <div class="numbertext">5 / 5</div>
+                                    <img src="images/kids-posing.jpg" >
+                                    <div class="text">                                                            
+                                    <h2>Pro-performance level</h2>
+                                    <p>This program is for boys between 16 and 19
+                                        years old.
+                                        It focusses on intensive training drills as it
+                                        prepares players for professional football.
+                                        The players are required to put in 6-8 hours
+                                        of football per week and it exposes them to
+                                        competitive matches every month,
+                                        Tournaments and League engagement.
+                                        The program will be help us identify
+                                        potentials and send to our affiliate clubs in
+                                        Lagos fro Pre-professional football.</p>
+                              </div>
+                                  </div>
+
                                 
                                 <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
                                 <a class="next" onclick="plusSlides(1)">&#10095;</a>
@@ -238,17 +251,170 @@
                                   <span class="dot" onclick="currentSlide(2)"></span> 
                                   <span class="dot" onclick="currentSlide(3)"></span> 
                                   <span class="dot" onclick="currentSlide(4)"></span> 
+                                  <span class="dot" onclick="currentSlide(5)"></span> 
+                                </div>
+
+                                <div class="spacer"></div>
+
+                                <!-- 5 pillars -->
+                                <div class="five-pillars">
+                                   <div class="tabs">
+                                       <div class="tab physical active-tab"><p>Physical</p></div>
+                                       <div class="tab technical"><p>Tecnical</p></div>
+                                       <div class="tab tactical"> <p>Tactical</p> </div>
+                                       <div class="tab mental"> <p>Mental</p> </div>
+                                       <div class="tab adaptability"> <p>Adaptability</p> </div>
+                                   </div>
+                                   <div class="tab-text-content">
+                                       <p class="physical-text tab-text">In the journey of development, our curriculum focuses on building and
+                                        enhancing motor skills such as endurance, speed, power, agility, among
+                                        others. These are some of the areas we will develop players to prepare
+                                        them for the intensity of the game.</p>
+
+                                        <p class="technical-text tab-text">We recognize that individuals have varying levels of talent and
+                                            ability. Our curriculum is designed to fan that spark of talent, no
+                                            matter the level of skill, on a journey of development that shows
+                                            visible and significant progress in the player’s ability</p>
+
+                                        <p class="tactical-text tab-text">An individual may possess skills but lack the knowledge or
+                                                awareness of when and where to apply that skill in real-world.
+                                                We teach and guide every player in our program to develop the
+                                                ability to read and understand the flow of the game and apply
+                                                themselves appropriately. (field).</p>
+
+                                         <p class="mental-text tab-text">Sports is not just a game of physical strength and ability. Our focus here is to teach
+                                                our players personal leadership Skills for success on & off the pitch; build confidence
+                                                and develop their minds to break through mental barriers so they can progress and
+                                                perform up to their full potential.</p>
+                                    
+                                         <p class="adaptability-text tab-text">Ambitious people constantly strive to adapt to and
+                                                excel in different environments. Our end goal is to
+                                                develop players capable of competing and holding
+                                                their own as professional footballers wherever they
+                                                find themselves; we will engage players on foreign
+                                                trips and tournaments to enhance their game abilities,
+                                                confidence and social interaction skills.</p>
+                                   </div>
                                 </div>
                  
             </div>
+
+            <div class="spacer"></div>
+            <div class="content">
+                <div class="image-container "><img src="images/kids-posing.jpg" alt=""></div>
+                <div class="text-container padding-left ">  
+                        <h2>Message from the sports director</h2>
+                        <p>We are glad to have you join us at leaders football center,
+                            the birthplace of next-generation football stars. Unlike any
+                            other football development facility in Africa, LFC is
+                            committed to the wholesome development and unlocking of
+                            the leadership potential in all participants. Asides from
+                            creating a platform to harness great football talents, we are
+                            also driving the mission of positively affecting societal
+                            change using football as a tool for active youth engagement
+                            and development. Whatever program you might find
+                            yourself in, do keep in mind that this experience is bound to
+                            have a long life positive impact on all participants. Thank
+                            you for coming on board a flight of endless possibilities</p>
+                            <p>--Daniel Greatman </p>
+                    </div>
+                </div>
+
+             
+
+                <div class="spacer"></div>
+                <div class="content">
+                    <div class="image-container ">
+                        <h2>What's included</h2>
+                        <ul>
+                            <li>Curriculum based football training </li>
+                            <li>Individual Development Plan</li>
+                            <li>Up to 502 hours of football training in 2022</li>
+                            <li>Personal Leadership Development Program:
+                                Discipline, Integrity, Excellence, Teamwork,
+                                Perseverance, Responsibility, Diligent, Service,
+                                Capacity-building, Possibility-mentality,
+                                Compassion, & Courage. </li>
+                            <li>Punctuality Program</li>
+                            <li>Captaincy Program</li>
+                            <li>Opportunity for African football tours</li>
+                            <li>Access to regularly updated Player Stats</li>
+                            <li>Exclusive Leaders football center kit</li>
+                            <li>Monthly Performance Evaluation</li>
+                            <li>Quarterly Local tournaments for the Academy</li>
+                            <li>Affiliate to Team360 of Lagos</li>
+                            <li>Lots of development matches in 2022</li>
+                            <li>Discounts to holiday Football camps</li>
+                            <li>End-of-course certificate</li>
+                        </ul>
+                    </div>
+                    <div class="text-container padding-left ">  
+                        <h1>Leadership skills</h1>
+                         <p class="skill"><span style="background-color: rgb(30, 255, 0);">1</span> Responsibility</p>
+                         <p class="skill"><span style="background-color: rgb(82, 5, 5);">2</span> Diligence</p>
+                         <p class="skill"><span style="background-color: rgb(0, 119, 255);">3</span> Service</p>
+                         <p class="skill"><span style="background-color: rgb(21, 80, 3);">4</span> Capacity</p>
+                         <p class="skill"><span style="background-color: rgb(177, 196, 10);">5</span> Excellence</p>
+                         <p class="skill"><span style="background-color: rgb(17, 98, 136);">6</span> Discipline</p>
+                         <p class="skill"><span style="background-color: rgb(255, 0, 200);">7</span> Intergrity</p>
+                         <p class="skill"><span style="background-color: rgb(248, 177, 45);">8</span> Possibility-Mentality</p>
+                         <p class="skill"><span style="background-color: rgb(243, 18, 37);">9</span> Team work</p>
+                         <p class="skill"><span style="background-color: rgb(87, 3, 73);">10</span> Courage</p>
+                         <p class="skill"><span style="background-color: rgb(65, 100, 32);">11</span> Perseverance</p>
+                         <p class="skill"><span style="background-color: rgb(0, 255, 221);">12</span> Compassion</p>
+                         <p >The focus of the ‘Mental’ Pillar is to develop our players Personal
+                            Leadership Skills for success on & off the pitch; build confidence and
+                            develop their minds to break through mental barriers so they can progress
+                            and perform to their full potential. The Personal Leadership Skills are: </p>
+                        </div>
+
+           
+                        
+                    </div>
+                      <div class="spacer"></div>
+                    <div id="register">
+                        <div id="register-image"><img src="images/Registration banner.jpg" alt="">
+              
+                
+                        </div>
+
+                        <div class="spacer"></div>
+                    <div class="content">
+                        <div class="image-container img-padding-left only-mobile"><img src="images/kits.jpg" alt=""></div>
+                        <div class="text-container padding-right "> 
+
+                               <h2>Items that included in the registration pack</h2>
+
+                               <ul>
+                                <li> <h3>Home Jersey</h3></li>
+                                <li> <h3>Away Jersey</h3></li>
+                                <li> <h3>Short</h3> </li>
+                                <li> <h3> Socks</h3></li>
+                               </ul>
+                             <p>Name and Squad number printed on the back of Football Jersey. It’s either First Name or Surname; no
+                                nicknames, please.
+                                Please let us know what number you would like to have on the jerseys. Numbers can only be given on
+                                First Come, First Serve basis once registration is complete and full payment made. </p>
+
+                                <h2>How to register:</h2>
+                                <p> Send an email to <span style="font-weight: bold;">leadersfootballcenter@gmail.com</span> </p>
+                                <p>Call us on 07034914467 or 07031482206</p>
+                                <p>You can register by clicking on this link <a href="https://docs.google.com/forms/d/e/1FAIpQLSdbZJ6Joq45eRzBDJqejd0M2BPaewo9kxWvCcT2tE0WoYHVvg/viewform" style="color: black;">LFC registration link</a> </p>
+                              
+   
+                            </div>
+                            <div class="image-container img-padding-left only-desktop"><img src="images/kits.jpg" alt=""></div>
+                        </div>
+
+                       
+          
+                        </div>
         </div>
  
 
-        <div class="spacer"></div>
-
 
         
-
+        <div class="spacer"></div>
 
         <div class="footer">
             <div class="social-icons">
@@ -300,6 +466,7 @@
 <script src="app.js"></script>
 <script src="animation.js"></script>
 <script src="slide.js"></script>
+<script src="tabs.js"></script>
 <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
 
 </html>

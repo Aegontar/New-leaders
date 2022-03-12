@@ -243,7 +243,12 @@ body {
     
     #fading-texts > h1 {
       font-size: 18px;
-   } 
+   }   
+
+   .text h2 {
+    margin-block-start: 1em;
+    margin-block-end: 0em;
+   }
 
    #header-content  h1 {
     margin-block-start: 1em;
@@ -261,7 +266,7 @@ body {
   }
 
   .image-container {
-    width: 40%;
+    width: 45%;
     max-width: 100%
   }
 
@@ -272,7 +277,7 @@ body {
   }
 
   .text-container {
-    width: 40%;
+    width: 45%;
   /*   padding: 0 20px; */
   /*   font-size: 13px; */
   }
@@ -421,7 +426,6 @@ img {vertical-align: middle;}
 
 /* Slideshow container */
 .slideshow-container {
- /*  max-width: 1000px; */
   position: relative;
   margin: auto;
 }
@@ -432,7 +436,7 @@ img {vertical-align: middle;}
   position: absolute;
   top: 50%;
   width: auto;
-  padding: 16px;
+  padding: 10px;
   margin-top: -22px;
   color: white;
   font-weight: bold;
@@ -441,7 +445,7 @@ img {vertical-align: middle;}
   border-radius: 0 3px 3px 0;
   user-select: none;
   background: black;
-  opacity: .3;
+  opacity: .5;
 }
 
 /* Position the "next button" to the right */
@@ -515,16 +519,29 @@ img {vertical-align: middle;}
   .prev, .next,.text {font-size: 11px}
 }
 
-.slideshow-container {
-  width: 100%;
+@media only screen and (min-width: 700px) {
+
+ .slideshow-container {
+  width: 90%; 
+} 
+
 }
 
 .slideshow-container  img{
   width: 50%;
   max-width: 100%;
-  height: 500px;
+  height: auto;
+  
 }
 
+@media only screen and (max-width: 630px) {
+  .slideshow-container  img{
+    max-width: 100%;
+   
+  }
+
+
+}
 
 
 
@@ -536,15 +553,177 @@ img {vertical-align: middle;}
    
   }
 
-  .slideshow-container img {
-    height: 250px;
-}
+  .text-container h2{
+    margin-block-start: 1em;
+  }
+  
+  .text h2{
+    margin-block-start: 1em;
+  } 
+  
 
   .text {
     width: 100%;
   }
 }
 
+/* tabs */
+
+.five-pillars {
+ width: 90%;
+ margin: 0 auto;
+}
+
+.tabs  {
+  display: flex;
+
+}
+
+.tab  {
+ text-align: center;
+ width: 100px;
+ cursor: pointer;
+}
+
+.physical {
+  border-bottom: red solid 5px;
+}
+
+.technical {
+  border-bottom: blue solid 5px;
+}
+
+.tactical {
+  border-bottom: yellow solid 5px;
+}
+
+.mental {
+  border-bottom: green solid 5px;
+}
+
+.adaptability {
+  border-bottom: purple solid 5px;
+
+}
+
+.active-tab {
+  background-color: rgba(18, 17, 18, .9);
+  color: #f2f2f2;
+}
+
+.tab-text-content {
+  border: 1px solid rgb(228, 227, 227);
+  position: relative;
+  padding: 0 10px;
+  height: 100px;
+}
+
+
+@media only screen and (max-width: 620px) {
+
+  .tab-text-content {
+    height: 150px;
+   }
+  
+}
+
+@media only screen and (max-width: 560px) {
+
+  .tab-text-content {
+    height: 200px;
+   }
+  
+}
+
+@media only screen and (max-width: 360px) {
+
+  .tab-text-content {
+    height: 300px;
+   }
+  
+}
+
+.skill {
+  margin-block-start: .5em;
+  margin-block-end: .5em;
+}
+
+.skill > span {
+  border-radius: 5px;
+  color: white;
+  padding: 5px;
+}
+
+
+ul {
+  padding: 10px;
+}
+
+
+/* @media only screen and (min-width: 360px) {
+
+  .tab-text-content {
+   height: 280px;
+  }
+
+} 
+
+@media only screen and (min-width: 555px) {
+
+.tab-text-content {
+  height: 240px;
+ }
+
+}
+
+ */
+
+
+
+.tab p{
+  pointer-events: none;
+}
+
+.tab-text {
+  position: absolute;
+  top: 0;
+  opacity: 0;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.physical-text {
+  opacity: 1;
+}
+
+
+@media only screen and (max-width: 450px) {
+ .tabs {
+   font-size: 13px;
+  }
+
+  .five-pillars {
+    width: 98%;
+  }
+}
+
+@media only screen and (max-width: 773px) {
+
+}
+
+/* registration */
+
+#register-image {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#register-image > img {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
 
   /* general css */
 
@@ -579,6 +758,7 @@ img {vertical-align: middle;}
   /* responsive code for mobile */
 
   @media only screen and (max-width: 560px) {
+
     .about-us-text-content {
       text-align: left;
       margin: 0 40px;
@@ -595,5 +775,10 @@ img {vertical-align: middle;}
   #about-us {
     width: 90%;
   }
+  }
   
+
+  a {
+    text-decoration: none;
+    color: white;
   }
