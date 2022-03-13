@@ -9,11 +9,9 @@ body {
     line-height: 1.5em;
   }
 
-  html, body {
-    max-width: 100%;
-    overflow-x: hidden;
-}
-
+  html {
+    scroll-behavior: smooth;
+  }
 
   
 .burger-menu-icon {
@@ -132,7 +130,6 @@ body {
     
      .menu-content > li {
       height: 40px;
-      line-height: 50px; 
       width: 100px;
       text-align: center;
       padding-left: 20px;
@@ -386,10 +383,10 @@ body {
     width: 100%;
     background-color: black; 
     color: white;
-    font-size: 10px;
+    font-size: 17px;
     text-align: center; 
     background: black;
- 
+    padding: 25px;
   }
 
   .footer p{
@@ -664,6 +661,64 @@ ul {
   padding: 10px;
 }
 
+.one {
+ background: rgb(29, 185, 24);
+}
+
+.two  {
+  background: rgb(82, 5, 5);
+ }
+ 
+
+.three {
+  background-color: rgb(116, 102, 241);
+ }
+
+
+.four {
+  background-color: rgb(0, 119, 255);
+ }
+
+
+ .five {
+  background-color: rgb(21, 80, 3);
+ }
+
+.six {
+  background-color: rgb(177, 196, 10);
+ }
+
+ .seven {
+  background-color: rgb(17, 98, 136);
+ }
+
+ .eight {
+  background-color: rgb(255, 0, 200);
+ }
+
+ .nine {
+  background-color: rgb(248, 177, 45);
+ }
+
+
+ .ten {
+  background-color: rgb(243, 18, 37);
+ }
+
+
+ .eleven {
+  background-color: rgb(87, 3, 73);
+ }
+
+ .twelve {
+  background-color: rgb(65, 100, 32);
+ }
+
+
+ .thirteen {
+  background-color: rgb(0, 255, 221);
+ }
+ 
 
 /* @media only screen and (min-width: 360px) {
 
