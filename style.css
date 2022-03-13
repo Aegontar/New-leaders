@@ -9,6 +9,11 @@ body {
     line-height: 1.5em;
   }
 
+  html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 
   
 .burger-menu-icon {
@@ -753,6 +758,23 @@ ul {
   #introductory-text h4 {
     font-size: 25px;
     color: #293160;
+  }
+
+  /* css for sponsor section */
+
+  #sponsors-section {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  #sponsor-wrap{
+   display: flex;
+   margin: 0 auto;
+  }
+
+  .sponsor > img{
+    width: 60%;
+    height: auto;
   }
 
   /* responsive code for mobile */
