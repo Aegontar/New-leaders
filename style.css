@@ -770,6 +770,7 @@ ul {
   #sponsor-wrap{
    display: flex;
    margin: 0 auto;
+   align-items: center;
   }
 
   .sponsor > img{
