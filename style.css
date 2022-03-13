@@ -661,6 +661,14 @@ ul {
   padding: 10px;
 }
 
+.color {
+  width: 30px;
+  height: 30px; 
+  display: inline-flex; 
+  justify-content: center;
+  align-items: center;
+}
+
 .one {
  background: rgb(29, 185, 24);
 }
